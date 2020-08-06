@@ -8,7 +8,7 @@ spec:
   resources:
     requests:
       storage: 1Gi
-  storageClassName: rbd
+  storageClassName: netapp-nfs
 ---
 apiVersion: v1
 kind: Service
